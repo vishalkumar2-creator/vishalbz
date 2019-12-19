@@ -1,11 +1,9 @@
 
 h1 {
-  color: blue;
-  font-family: verdana;
-  font-size: 300%;
+  color: green;
+  font-size: 200%;
 }
 p  {
-  color: red;
-  font-family: courier;
-  font-size: 160%;
+  color: green;
+  font-size: 120%;
 }
