@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vishalkumar2-creator/vishalbz/issues"
   },
-  "homepage": "https://github.com/vishalkumar2-creator/vishalbz#readme"
+  "homepage": "https://github.com/vishalkumar2-creator/vishalbz#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
