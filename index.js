@@ -8,4 +8,5 @@ obj.name = "Being Zero";
 obj.college = "CMRCET";
 obj.regno = "111111ABC";
 app.get('/data', (req, res) => res.json(obj))
+app.get('/resume', (req, res) => res.sendFile(__dirname+'/public/resume.html'))
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

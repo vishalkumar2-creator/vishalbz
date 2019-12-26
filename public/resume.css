@@ -1,0 +1,86 @@
+.menu{
+    background-color:lightskyblue;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.menu ul li{
+    width:150px;
+    margin:15px;
+}
+.name {
+    position: absolute;
+    font-size:25px;
+}
+.menu ul li dropdown
+{
+margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: lightskyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+. dropdown dropdown-content a {
+  color: ivory;
+  display: right;
+}
+.dropdown-content a:hover {background-color: lightskyblue;
+}
+.dropdown:hover .dropdown-content {
+    background-color: lightskyblue;
+    font-size: 25px;
+    object-position:right;
+  display: block;
+}
+.menu ul li dropdown:hover .dropbtn {
+    position:relative;
+  background-color: skyblue;
+}
+.dropdown-btn{
+    position: relative;
+    background-color: lightblue;
+    color: lightskyblue;
+}
+.ABOUT h1{
+    font-size: 70px;
+    font-weight:bolder;
+}
+.sch h1{
+    font-weight: bolder;
+}
+.sch h3{
+    color: darkgray;
+}
+.sch h4{
+    color: darkgray;
+}
+.sch h5{
+    color: red;
+}
+.ski h1{
+    font-weight: bolder;
+}
+.in h1{
+    font-weight:bolder;
+}
+.in p{
+    font-size:20px;
+    color: darkgray;
+}
+.aw h1{
+    font-weight:bolder;
+}
+.aw p{
+    font-size:20px;
+    color:darkgray;
+}
+.aw p i{
+color: yellow;
+}
